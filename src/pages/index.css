@@ -53,6 +53,15 @@
   color: white;
 }
 
+.header--text {
+  text-align: center;
+}
+
+.mdc-card__media {
+  background-size: cover!important;
+  height: 30vh;
+}
+
 @media (max-width: 599px) {
   .hero--inner--cta {
     width: 50vw;
