@@ -37,8 +37,28 @@ const IndexPage = () =>
           <h2>Gezellig</h2>
           <p>Heerlijk genieten van een babbel tijdens een wel verdiende behandeling</p>
         </div>
+        </div>
+        </div>
+
+        <div style={ {textAlign: "center"} }>
+          <h2>Werkwijzen</h2>
+        </div>
+
+        <div className="breakup">
+        <div className="mdc-layout-grid">
+          <div className="mdc-layout-grid__inner">
+
+        <div className="mdc-layout-grid__cell  mdc-layout-grid__cell--span-6">
+          <p>
+            In de salon wordt er gewerkt met een pedicuremotor op basis van spraytechniek. U ondergaat hierdoor een pijnloze en ook hygiënische behandeling. De beroepscode van de voetverzorging wordt strikt gevolgd. Hygiëne, veiligheid en milieubewust werken heeft de hoogste prioriteit.
+          </p>
+        </div>
+        <div className="mdc-layout-grid__cell  mdc-layout-grid__cell--span-6">
+          <img className="mdc-elevation--z6 work--image" src="http://pedicuresalonfarla.nl/wp-content/uploads/2015/09/IMG_0063a.jpg?5be512" />
+        </div>
       </div>
     </div>
+        </div>
     </main>
   </div>
 

@@ -21,12 +21,6 @@
   margin: 0 auto;
 }
 
-@media (max-width: 599px) {
-  .hero--inner--cta {
-    width: 50vw;
-  }
-}
-
 .featured--icon {
   height: 100px;
   width: 100px;
@@ -46,4 +40,29 @@
 
 .feature--box {
   text-align: center;
+}
+
+.work--image {
+  height: 50%;
+  width: 50%;
+  float: right;
+}
+
+.breakup {
+  background-color: #2196F3;
+  color: white;
+}
+
+@media (max-width: 599px) {
+  .hero--inner--cta {
+    width: 50vw;
+  }
+
+  .work--image {
+    height: 100%;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
 }
