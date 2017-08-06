@@ -9,6 +9,7 @@
     "gatsby-plugin-react-helmet": "^1.0.1",
     "gatsby-plugin-sass": "^1.0.1",
     "material-components-web": "^0.16.0",
+    "react-google-maps": "^7.1.0",
     "react-tap-event-plugin": "^2.0.1"
   },
   "keywords": [
