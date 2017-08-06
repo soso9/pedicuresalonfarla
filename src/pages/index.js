@@ -37,9 +37,9 @@ const IndexPage = () =>
     <div className="hero" style={ {background:`url("${hero}") no-repeat center center`} }>
       <div className="hero--inner">
         <h1>Uw voeten in de beste handen</h1>
-        <a className="mdc-button mdc-button--raised mdc-button--primary hero--inner--cta">
+        <Link to="afspraak-maken" className="mdc-button mdc-button--raised mdc-button--primary hero--inner--cta">
            Afspraak maken
-          </a>
+          </Link>
       </div>
     </div>
     <main>
