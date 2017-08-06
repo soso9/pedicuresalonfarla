@@ -28,13 +28,13 @@ class Toolbar extends React.Component {
           </div>
         </section>
         </div>
-        
+
         <div className={this.getMenuClass()} tabIndex="-1" ref={node => {
           this.wrapperRef = node;
         }}>
           <ul className="mdc-simple-menu__items mdc-list" role="menu" aria-hidden="true">
             <li className="mdc-list-item" role="menuitem" tabIndex="0">
-              <Link to="#" className="mdc-list-item-link">Afspraak maken</Link>
+              <Link to="page2" className="mdc-list-item-link">Afspraak maken</Link>
             </li>
             <li className="mdc-list-item" role="menuitem" tabIndex="0">
               <Link to="#" className="mdc-list-item-link">Behandelingen</Link>
@@ -62,6 +62,7 @@ class Toolbar extends React.Component {
 
   componentDidMount() {
     document.addEventListener('mousedown', this.handleClickOutsideMenu.bind(this));
+    document.addEventListener('touchend', this.handleClickOutsideMenu.bind(this));
   }
 
   handleClickOutsideMenu(e) {
