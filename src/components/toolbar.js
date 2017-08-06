@@ -61,12 +61,7 @@ class Toolbar extends React.Component {
   }
 
   componentDidMount() {
-    // document.addEventListener('touchend', (e) => {
-    //   e.stopPropagation();
-    //   e.preventDefault();
-    //   this.handleClickOutsideMenu(e);
-    // })
-    // document.addEventListener('mousedown', this.handleClickOutsideMenu.bind(this));
+    document.addEventListener('mousedown', this.handleClickOutsideMenu.bind(this));
   }
 
   handleClickOutsideMenu(e) {
