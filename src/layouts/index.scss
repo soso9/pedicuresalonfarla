@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+$mdc-theme-primary: white;
+$mdc-theme-accent: #ffab40;
+$mdc-theme-background: #fff;
+@import "node_modules/material-components-web/material-components-web.scss";
+
+.mdc-toolbar__row:first-child::after {
+  background-image: url("http://pedicuresalonfarla.nl/wp-content/uploads/2015/09/garda-202065_1920-1200x671.jpg");
+  background-size: cover;
+  background-position: center;
+}

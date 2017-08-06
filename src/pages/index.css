@@ -1,0 +1,49 @@
+.hero {
+  background-size: cover!important;
+  height: 100vh;
+}
+
+.hero--inner {
+  justify-content: center;
+   top: 0;
+   left: 0;
+   position: relative;
+   flex-direction: column;
+   text-align: center;
+   display: flex;
+   height: 100vh;
+   width: 100vw;
+   color: white;
+}
+
+.hero--inner--cta {
+  width: 20vw;
+  margin: 0 auto;
+}
+
+@media (max-width: 599px) {
+  .hero--inner--cta {
+    width: 50vw;
+  }
+}
+
+.featured--icon {
+  height: 100px;
+  width: 100px;
+  border-radius: 100em;
+  background-color: #2196F3;
+  display: block;
+  margin: 0 auto;
+}
+
+.featured--icon i {
+  width: 100%;
+  height: 100%;
+  font-size: 3em;
+  line-height: 100px;
+  color: white !important;
+}
+
+.feature--box {
+  text-align: center;
+}
