@@ -99,6 +99,17 @@
   }
 }
 
+.mdc-list-item {
+  pointer-events: none
+}
+
+.mdc-list-item-link {
+  pointer-events: auto;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
 @media (max-width: 970px) {
   .mdc-toolbar__navigation__item {
     display: none;
