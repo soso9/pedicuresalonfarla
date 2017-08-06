@@ -95,7 +95,7 @@ const IndexPage = () =>
         <div className="mdc-layout-grid">
           <div className="mdc-layout-grid__inner">
             {
-              services.map((service) => <Service service={service} />)
+              services.map((service) => <Service service={service} key={service.title}/>)
             }
         </div>
         </div>
