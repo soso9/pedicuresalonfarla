@@ -3,8 +3,10 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import Helmet from 'react-helmet'
 import Toolbar from '../components/toolbar';
-
+import injectTapEventPlugin from 'react-tap-event-plugin';
 import './index.scss'
+
+injectTapEventPlugin();
 
 const Header = () => <Toolbar />
 

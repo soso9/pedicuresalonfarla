@@ -16,7 +16,7 @@ class Toolbar extends React.Component {
       <header className="mdc-toolbar mdc-toolbar--fixed">
         <div className="mdc-toolbar__row">
         <section className="mdc-toolbar__section mdc-toolbar__section--align-start">
-          <button className="material-icons mdc-toolbar__icon--menu" onClick={this.toggleMenu.bind(this)}>menu</button>
+          <button className="material-icons mdc-toolbar__icon--menu" onTouchTap={this.toggleMenu.bind(this)}>menu</button>
           <span className="mdc-toolbar__title">Pedicuresalon Farla</span>
         </section>
         <section className="mdc-toolbar__section mdc-toolbar__section__navigation">
@@ -70,7 +70,6 @@ class Toolbar extends React.Component {
   }
 
   handleClickOutsideMenu(e) {
-    alert('click');
     if (this.wrapperRef && !this.wrapperRef.contains(e.target)) {
       e.stopPropagation();
       e.preventDefault();
