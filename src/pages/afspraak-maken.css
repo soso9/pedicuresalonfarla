@@ -1,0 +1,13 @@
+.mdc-card--legend {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  background-color: white;
+}
+
+@media (max-width: 970px) {
+  .mdc-card--legend {
+    height: 30vh;
+    width: 50vw;
+  }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import { withGoogleMap, GoogleMap, Marker, InfoWindow } from "react-google-maps";
 import withScriptjs from "react-google-maps/lib/async/withScriptjs";
-
+import './afspraak-maken.css';
 const googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.27&libraries=places,geometry&key=AIzaSyB44bVnconCqStJOcxfK7gTx2nKN0JsbYA";
 
 const mapStyles = [
@@ -85,12 +85,13 @@ const mapStyles = [
         ]
     }
 ];
+const topRight = 3;
 
 const GettingStartedGoogleMap = withScriptjs(withGoogleMap(props => (
   <GoogleMap
     defaultZoom={16}
     googleMapURL={googleMapURL}
-    options={ {styles: mapStyles} }
+    options={ {styles: mapStyles } }
     defaultCenter={{ lat: 51.5498281, lng: 4.0804409  }}>
       <Marker position={{ lat: 51.5498281, lng: 4.0804409 }} animation={"BOUNCE"}/>
   </GoogleMap>
@@ -110,7 +111,7 @@ const Appointment = () =>
         <div style={{ height: `100%` }} />
       }
     />
-    <div className="mdc-card" style={ {position: "absolute", left: "10px", bottom: "10px", backgroundColor: "white"} }>
+    <div className="mdc-card mdc-card--legend">
       <section className="mdc-card__supporting-text">
         <p style={{zIndex: 9999}}>
         Rädda Barnenstraat 1, 4695 BJ Sint-Maartensdijk <br />
