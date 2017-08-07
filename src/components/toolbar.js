@@ -20,7 +20,7 @@ class Toolbar extends React.Component {
           <button className="material-icons mdc-toolbar__icon--menu" onTouchTap={this.toggleMenu.bind(this)}
           ref={node => {this.menuBtn = node;}}
           >menu</button>
-          <span className="mdc-toolbar__title">Pedicuresalon Farla</span>
+          <Link to="/" className="mdc-toolbar__title mdc-toolbar__title--main">Pedicuresalon Farla</Link>
         </section>
         <section className="mdc-toolbar__section mdc-toolbar__section__navigation">
           <div className="mdc-toolbar__navigation">

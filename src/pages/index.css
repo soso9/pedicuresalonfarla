@@ -110,6 +110,12 @@
   color: black;
 }
 
+ .mdc-toolbar__title--main {
+   text-decoration: none;
+   cursor: pointer;
+   color: black;
+ }
+
 @media (max-width: 970px) {
   .mdc-toolbar__navigation__item {
     display: none;
