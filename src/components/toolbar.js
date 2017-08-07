@@ -25,7 +25,6 @@ class Toolbar extends React.Component {
         <section className="mdc-toolbar__section mdc-toolbar__section__navigation">
           <div className="mdc-toolbar__navigation">
             <Link className="mdc-toolbar__navigation__item" to="afspraak-maken">Afspraak maken</Link>
-            <Link className="mdc-toolbar__navigation__item" to="#">Behandelingen</Link>
             <Link className="mdc-toolbar__navigation__item" to="#">Prijzen</Link>
             <Link className="mdc-toolbar__navigation__item" to="#">Producten</Link>
           </div>
@@ -38,9 +37,6 @@ class Toolbar extends React.Component {
           <ul className="mdc-simple-menu__items mdc-list" role="menu" aria-hidden="true">
             <li className="mdc-list-item" role="menuitem" tabIndex="0">
               <Link to="afspraak-maken" className="mdc-list-item-link">Afspraak maken</Link>
-            </li>
-            <li className="mdc-list-item" role="menuitem" tabIndex="0">
-              <Link to="#" className="mdc-list-item-link">Behandelingen</Link>
             </li>
             <li className="mdc-list-item" role="menuitem" tabIndex="0">
               <Link to="#" className="mdc-list-item-link">Prijzen</Link>
